@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Candidate
+role: Post-doctoral Research in Developmental Neuroscience
 
 # Organizations/Affiliations
 organizations:
-- name: Columbia Univerrsity
+- name: Department of Child & Adolescent Psychiatry, NYU Langone Health
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -71,6 +71,10 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate at Columbia University. My graduate research focused on understanding how early adversity influences neurobiology and stress physiology during childhood. In March 2020, I will begin a Postdoctoral position at NYU Langone Medical Center in the department of Child and Adolescent Psychiatry. I will be working in the SCAN Lab to investigate how the early environment influences prenatal and postnatal brain development. 
+I research early environments, brain development, and mental health. I recently completed my PhD at Columbia University, where I studied neurobiological development and motivated behavior in children and adolescents with history of early adversity. I am currently a Postdoctoral Researcher at the NYU Department of Child & Adolescent Psychiatry, where I examine how the early environment influences prenatal and postnatal brain development and later mental health outcomes.
+
+I also teach R programming in both workshops and courses, and I am a member of [R ladies in NYC](https://www.rladiesnyc.org/). 
+
+Outside the lab, I'm an avid cyclist and also [blog](https://www.nyccwomensracing.com/blog) about concussion awareness and prevention.
 
 
