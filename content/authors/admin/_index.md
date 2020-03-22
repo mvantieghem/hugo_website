@@ -71,10 +71,10 @@ user_groups:
 - Visitors
 ---
 
-I research early environments, brain development, and mental health. I recently completed my PhD at Columbia University, where I studied neurobiological development and motivated behavior in children and adolescents with history of early adversity. I am currently a Postdoctoral Researcher at the NYU Department of Child & Adolescent Psychiatry, where I examine how the early environment influences prenatal and postnatal brain development and later mental health outcomes.
+I research early environments, brain development, and mental health. I recently completed my PhD at Columbia University, where I studied neurobiological development and motivated behavior in children and adolescents with history of early adversity. I am currently a Postdoctoral Researcher at the NYU Department of Child & Adolescent Psychiatry in the Brain and Early Experiences (BEE Lab), where we examine how the prenatal environment influences fetal and infant brain development and later mental health outcomes.
 
 I also teach R programming in both workshops and courses, and I am a member of [R ladies in NYC](https://www.rladiesnyc.org/). 
 
-Outside the lab, I'm an avid cyclist and also [blog](https://www.nyccwomensracing.com/blog) about concussion awareness and prevention.
+Outside the lab, I'm an avid cyclist and also blog about concussion awareness and prevention.
 
 

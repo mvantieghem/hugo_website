@@ -28,22 +28,30 @@ menu:
 
 ## 2) Use blogdown to generate a website template
 * Once you've chosen a theme, navigate to the owner's github repository (https://github.com/user/repo). We're going to build our website using the example template for that theme.
-* in R studio, install the blogdown package. **install.packages('blogdown')**
-* Make a new R project. **File --> New Project**
-* Generate a website from the theme template in your R Project. **blogdown::generate_website (theme = 'github.io/username/repository/')**.
-* Do I need to include ::build_site() -- does it show up in the viewer then? 
+* in R studio, install the blogdown package. \
+**install.packages('blogdown')**
+* Make a new R project. \
+**File --> New Project**
+* Generate a website from the theme template in your R Project.\
+**blogdown::generate_website (theme = 'github.io/username/repository/')**.
 
 
 ## 3) Edit content on your website 
-Every theme has a slightly different setup, but we will walk through the basic overview. 
-* **Config:** contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files. 
-* **Content:** This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or 'widget') of the home page will be included within the 'home' folder. You can activate/inactivate or edit these .md files to your heart's content. 
-* **Static:** This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page.
-* **Themes:** This stores the necessary stuff to build a website using your chosen theme. *Do not edit!*
+Every theme has a slightly different setup, but we will walk through the basic overview.  \
+* **Config:** contains the backbone structure of your website. The menus.toml file can be edited based on what navigation links you would like to include on your website. In most cases, you do not need to edit the language.toml, config.toml, or params.toml files. \
+* **Content:** This is where most of your editing will take place. There is a subfolder for each component of your website, and this will vary depending on your chosen theme. For example, each component (or 'widget') of the home page will be included within the 'home' folder. You can activate/inactivate or edit these .md files to your heart's content. \
+* **Static:** This is the storage location for any static files that you add to your website. For example, you can add PDF files or images that are then linked to in a content page. \
+* **Themes:** This stores the necessary stuff to build a website using your chosen theme. *Do not edit!* \
 * **Public:** Contains the live website, built from the contents and configurations. *Do not edit!*
 
 ## 4) Preview your website 
-* You can easily preview your website as you make changes in the R studio viewer. You only need to do this once during a single R session; the preview will refresh after you save changes. **blogdown::serve_site()** 
+* To preview an individual Rmd file: \
+Click the **Preview** button at the top of the Rmd file in R studio
+* To preview the entire wepage \
+**blogdown::serve_site()** 
+* The webpage will display in the viewer panel of R studio. \
+* Click **open in a new window** (on the top left of the Viewer panel) to open the webpage preview in your browser.
+* You only need to do this once during a single R session; the webpage preview will refresh after each time you save changes.
 
 
 For additional details and trouble-shooting, see the official [Blogdown documentation](https://bookdown.org/yihui/blogdown/) for making a website using R markdown.

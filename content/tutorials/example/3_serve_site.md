@@ -26,14 +26,19 @@ menu:
 * Re-generate the public folder with updated content: **blogdown::serve_site()**
 
 ## 2) Deploy your changes to the live website 
-* In terminal, navigate to your 'webpage' directory. **cd webpage/**
-* Run the deploy.sh script from the console to update your live webpage with recent edits. 
-This script will commit all changes to the public folder to your github pages repository, and thus automatically updates your live website.
+* Here, we are going to push the changes to the 'public' directory to our 'username.github.io' repository. This step has to be done in terminal, not R studio.
+* In terminal, navigate to the public folder of the 'webpage' directory. \
+**cd webpage/public**
+* Add, commit and push your changes with the following lines of code: \
+**git add . ** \
+**git commit -m "my message here"** \
+**git push origin master** \
 * Check your live website updates at **username.github.io**
 
-## 3) Track your content changes to the website using github
-* Commit & push changes to 'webpage' to track your content changes. 
-* Exclude the 'public' folder from being tracked by adding this line to your .gitignore file: **public/**. Make sure you commit & push the updated .gitignore file too.
+## 3) Track your content changes to the website repository 
+* Here, we are  going to push the changes of the 'webpage' directory to the 'webpage' repository. I prefer to do this using R studio. 
+* Exclude the 'public' folder from being tracked by adding this line to your .gitignore file: **public/**. 
+*Make sure you commit & push the updated .gitignore file too.
 
 
 
