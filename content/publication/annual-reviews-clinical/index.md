@@ -12,7 +12,7 @@ authors:
 - Nim Tottenham
 
 date: "2019-02-23T00:00:00Z"
-doi: "https://psyarxiv.com/yp5h2/"
+doi: "10.1146/annurev-clinpsy-050718-095727"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"

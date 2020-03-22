@@ -18,7 +18,7 @@ authors:
 - Nim Tottenham
 
 date: "2019-11-23T00:00:00Z"
-doi: "https://psyarxiv.com/yp5h2/"
+# doi: "https://psyarxiv.com/yp5h2/"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -42,9 +42,11 @@ tags:
 featured: false
 
 # links:
-# - name: PDF
-#   url: "https://psyarxiv.com/yp5h2/"
-url_code: 'Forthcoming'
+
+links:
+- name: Preprint
+  url: 'psyarxiv.com/yp5h2/'
+url_code: 'psyarxiv.com/yp5h2/'
 url_project: 'https://osf.io/9au4v/'
 
 
