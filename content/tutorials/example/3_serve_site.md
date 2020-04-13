@@ -30,15 +30,15 @@ menu:
 * In terminal, navigate to the public folder of the 'webpage' directory. \
 **cd webpage/public**
 * Add, commit and push your changes with the following lines of code: \
-**git add . ** \
+**git add .** \
 **git commit -m "my message here"** \
-**git push origin master** \
+**git push origin master** 
 * Check your live website updates at **username.github.io**
 
 ## 3) Track your content changes to the website repository 
 * Here, we are  going to push the changes of the 'webpage' directory to the 'webpage' repository. I prefer to do this using R studio. 
-* Exclude the 'public' folder from being tracked by adding this line to your .gitignore file: **public/**. 
-*Make sure you commit & push the updated .gitignore file too.
+* Exclude the 'public' folder from being tracked by adding this line to your .gitignore file: **public/**. \
+* *Make sure you commit & push the updated .gitignore file too.*
 
 
 

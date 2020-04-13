@@ -37,17 +37,15 @@ Before we start, it's important to explain that there will be 2 separate github 
 
 ## 2) Make the 'username.github.io' repository and add it as a submodule. 
 * Make a new repository on github called **username.github.io**. Github pages will automatically generate a webpage from any repository with this specific name, so unfortunately you cannot be creative here! 
-* Open terminal and navigate to your webpage directory on your local machine. \
-**cd /your-local-directories/webpage/** \
-* Delete your public repository.\
-**rm -rf public** \
-* Now we are going to add our 'username.github.io' repository as a submodule of the 'webpage' repository.\
-**submodule add -b master https://github.com/username/username.github.io.git public** \
+* Open terminal and navigate to your webpage directory on your local machine: \
+**cd /your-local-directories/webpage/** 
+* Delete your public repository: **rm -rf public** 
+* Now we are going to add our 'username.github.io' repository as a submodule of the 'webpage' repository: **submodule add -b master https://github.com/username/username.github.io.git public** 
 * Next time we serve the site, the 'username.github.io.git' repository will contain the contents of the 'public' directory. 
 
 ## 3) Set your website html address
 * Open the **config.toml** file in the home directory of your webpage_hugo R project.
-* Replace the baseURL https://example.com with your github page domain: \ **https://username.github.io** \
+* Replace the baseURL https://example.com with your github page domain: **https://username.github.io** 
 * Save the changes to the config.toml file.
 
 
